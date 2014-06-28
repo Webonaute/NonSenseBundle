@@ -3,6 +3,8 @@ NonSenseBundle
 
 Nonsense Generator allows you to display sentences or paragraphs of nonsensical, but syntactically correct sentences.
 
+The NonSense service use in this bundle is based on the work of [Chris Throup](http://www.throup.org.uk/random_nonsense.php)
+
 Documentation
 -------------
 
