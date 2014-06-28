@@ -1,5 +1,5 @@
 {
-    "name": "Webonaute/NonSense",
+    "name": "webonaute/nonsense",
     "description": "Nonsense Generator allows you to display sentences or paragraphs of nonsensical, but syntactically correct sentences.",
     "type": "symfony-bundle",
     "license": "MIT",
