@@ -1,0 +1,3 @@
+services:
+    nonsense.service:
+        class: Webonaute\NonSenseBundle\Service\NonSenseService
