@@ -1,0 +1,8 @@
+
+_display_sentence:
+    pattern: sentence
+    defaults: { _controller: NonSenseBundle:Index:DisplaySentence }
+
+_display_word:
+    pattern: word
+    defaults: { _controller: NonSenseBundle:Index:DisplayWord }

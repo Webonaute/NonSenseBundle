@@ -1,3 +1,9 @@
 services:
     nonsense.service:
         class: Webonaute\NonSenseBundle\Service\NonSenseService
+
+    nonsense.twig.extension:
+        class: Webonaute\NonSenseBundle\Twig\Extension\NonSenseExtension
+        arguments: [@nonsense.service]
+        tags:
+            - { name: twig.extension }

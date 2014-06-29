@@ -1,0 +1,14 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}NonSenseBundle:Index:DisplaySentence{% endblock %}
+
+{% block body %}
+    <h1>Welcome to the Index:DisplaySentence page</h1>
+
+    <h2>From controller</h2>
+    <p>{{ nonsense }}</p>
+
+    <h2>From twig extension</h2>
+    <p>{{ getNonSenseSentence(2) }}</p>
+
+{% endblock %}

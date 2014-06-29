@@ -1,0 +1,13 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}NonSenseBundle:Index:DisplayWord{% endblock %}
+
+{% block body %}
+    <h1>Welcome to the Index:DisplayWord page</h1>
+
+    <p>{{ nonsense }}</p>
+
+    <h2>From twig extension</h2>
+    <p>{{ getNonSenseWord(20) }}</p>
+
+{% endblock %}
